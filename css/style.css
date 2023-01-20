@@ -1,0 +1,31 @@
+header{
+    /* background-image: url(../images/banner.jpg), linear-gradient(90deg, #000102 0%, rgba(0, 95, 172, 0) 100%); */
+    background-image: url(../images/banner.jpg), url(../images/banner-overlay.jpg);
+    background-blend-mode: overlay;
+    height: 100vh;
+}
+.img__filter{
+    filter: grayscale(1);
+}
+.common__btn{
+    background-color: #E76F51;
+}
+.common__btn:hover{
+    background-color: #E76F51;
+}
+.common__color{
+    color: #E76F51;
+}
+.common__btn--card{
+    border: 2px solid #E76F51;   
+}
+.common__btn--card:hover{
+    border: 2px solid #E76F51; 
+    color: #E76F51;
+}
+.rating-icon{
+    width: 20px;
+}
+footer{
+    background-color: #0B0D17;
+}
